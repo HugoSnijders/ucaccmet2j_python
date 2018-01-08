@@ -243,3 +243,8 @@ print('GRAND TOTAL:', total2)
 # Percentage percipitation in Seattle
 print("")
 print("Rain in Seattle:", round(total*100/total2, 2), "%")
+
+# Note: although this works, it is perhaps not the most elegant or efficient
+# approach. What I could also have tried to do is create an index of the months
+# with assigned number values, and then used a script that looped through those
+# values and then used the same system I used for each individual month here.
